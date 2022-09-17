@@ -1,0 +1,12 @@
+C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\bin\Debug\inicio.exe
+C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\bin\Debug\inicio.pdb
+C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.Form1.resources
+C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.Properties.Resources.resources
+C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.csproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.exe
+C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.pdb
+C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.bienvenido.resources
+C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.Controles.textBoxPersozalizado.resources
+C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.Administrador.MenuAdministrador.resources
+C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.Vendedor.MenuVendedor.resources
