@@ -10,3 +10,5 @@ C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.bie
 C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.Controles.textBoxPersozalizado.resources
 C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.Administrador.MenuAdministrador.resources
 C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.Vendedor.MenuVendedor.resources
+C:\Users\usuario\Documents\GitHub\CenturionMaderasSoftware\inicio\obj\Debug\inicio.exe
+C:\Users\usuario\Documents\GitHub\CenturionMaderasSoftware\inicio\obj\Debug\inicio.pdb
