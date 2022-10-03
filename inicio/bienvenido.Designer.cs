@@ -108,12 +108,12 @@
             this.barraProgresoPersonalizada1.ChannelColor = System.Drawing.Color.Tan;
             this.barraProgresoPersonalizada1.ChannelHeight = 13;
             this.barraProgresoPersonalizada1.ForeBackColor = System.Drawing.Color.Wheat;
-            this.barraProgresoPersonalizada1.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.barraProgresoPersonalizada1.ForeColor = System.Drawing.Color.MediumSlateBlue;
             this.barraProgresoPersonalizada1.Location = new System.Drawing.Point(4, 144);
             this.barraProgresoPersonalizada1.Name = "barraProgresoPersonalizada1";
             this.barraProgresoPersonalizada1.ShowValue = inicio.Controles.TextPosition.right;
             this.barraProgresoPersonalizada1.Size = new System.Drawing.Size(562, 32);
-            this.barraProgresoPersonalizada1.SliderColor = System.Drawing.Color.Tomato;
+            this.barraProgresoPersonalizada1.SliderColor = System.Drawing.Color.MediumSlateBlue;
             this.barraProgresoPersonalizada1.SliderHeight = 7;
             this.barraProgresoPersonalizada1.TabIndex = 3;
             // 
