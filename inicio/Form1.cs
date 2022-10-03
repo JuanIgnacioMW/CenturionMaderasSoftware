@@ -25,10 +25,14 @@ namespace inicio
        
         private void botonPersonalizado1_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void Iniciar_Click(object sender, EventArgs e)
+        {
             string usuario;
             string contraseña;
-            //MessageBox.Show(textBoxPersozalizado2.Texts, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //"Debe completar Usuario"
+
 
             if (textBoxPersozalizado1.Texts.Length == 0)
             {
@@ -41,7 +45,7 @@ namespace inicio
             }
             else
             {
-                usuario = "Nestor";
+                usuario = "Gerardo";
                 contraseña = "1111";
 
                 if (textBoxPersozalizado1.Texts == usuario && textBoxPersozalizado2.Texts == contraseña)
@@ -51,7 +55,7 @@ namespace inicio
                     msj.ShowDialog();
 
 
-                    Gerente.MenuGerente menuGerente= new Gerente.MenuGerente();
+                    Gerente.MenuGerente menuGerente = new Gerente.MenuGerente(usuario);
                     menuGerente.Show();
 
                 }
@@ -65,7 +69,7 @@ namespace inicio
                         bienvenido msj = new bienvenido(usuario);
                         msj.ShowDialog();
 
-                       Administrador.MenuAdministrador menuAdministrador = new Administrador.MenuAdministrador(usuario);
+                        Administrador.MenuAdministrador menuAdministrador = new Administrador.MenuAdministrador(usuario);
                         menuAdministrador.Show();
 
 
@@ -94,11 +98,11 @@ namespace inicio
                 }
 
             }
-            
-            //textBoxPersozalizado1.Clear();
-            //textBoxPersozalizado2.Clear();
+
         }
+
     }
- }
+}
+ 
 
 

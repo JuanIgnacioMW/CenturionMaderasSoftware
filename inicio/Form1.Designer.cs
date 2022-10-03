@@ -34,10 +34,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxPersozalizado2 = new inicio.Controles.textBoxPersozalizado();
             this.textBoxPersozalizado1 = new inicio.Controles.textBoxPersozalizado();
-            this.botonPersonalizado1 = new InicioSistema.Controles.botonPersonalizado();
             this.label2 = new System.Windows.Forms.Label();
             this.lUsuario = new System.Windows.Forms.Label();
             this.lContraseña = new System.Windows.Forms.Label();
+            this.Iniciar = new InicioSistema.Controles.botonPersonalizado();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,7 +77,7 @@
             // 
             this.textBoxPersozalizado2.BackColor = System.Drawing.Color.Wheat;
             this.textBoxPersozalizado2.BorderColor = System.Drawing.Color.Peru;
-            this.textBoxPersozalizado2.BorderFocusColor = System.Drawing.Color.DarkGreen;
+            this.textBoxPersozalizado2.BorderFocusColor = System.Drawing.Color.MediumSlateBlue;
             this.textBoxPersozalizado2.BorderSize = 1;
             this.textBoxPersozalizado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPersozalizado2.ForeColor = System.Drawing.Color.DimGray;
@@ -96,7 +96,7 @@
             // 
             this.textBoxPersozalizado1.BackColor = System.Drawing.Color.Wheat;
             this.textBoxPersozalizado1.BorderColor = System.Drawing.Color.Peru;
-            this.textBoxPersozalizado1.BorderFocusColor = System.Drawing.Color.DarkGreen;
+            this.textBoxPersozalizado1.BorderFocusColor = System.Drawing.Color.MediumSlateBlue;
             this.textBoxPersozalizado1.BorderSize = 1;
             this.textBoxPersozalizado1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPersozalizado1.ForeColor = System.Drawing.Color.DimGray;
@@ -110,26 +110,6 @@
             this.textBoxPersozalizado1.TabIndex = 4;
             this.textBoxPersozalizado1.Texts = "";
             this.textBoxPersozalizado1.UnderLineStyle = false;
-            // 
-            // botonPersonalizado1
-            // 
-            this.botonPersonalizado1.BackColor = System.Drawing.Color.Tan;
-            this.botonPersonalizado1.backGroundColor = System.Drawing.Color.Tan;
-            this.botonPersonalizado1.BorderColor = System.Drawing.Color.DarkGoldenrod;
-            this.botonPersonalizado1.BorderRadius = 30;
-            this.botonPersonalizado1.BorderSize = 1;
-            this.botonPersonalizado1.FlatAppearance.BorderSize = 0;
-            this.botonPersonalizado1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonPersonalizado1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonPersonalizado1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.botonPersonalizado1.Location = new System.Drawing.Point(520, 378);
-            this.botonPersonalizado1.Name = "botonPersonalizado1";
-            this.botonPersonalizado1.Size = new System.Drawing.Size(150, 40);
-            this.botonPersonalizado1.TabIndex = 0;
-            this.botonPersonalizado1.Text = "Ingresar";
-            this.botonPersonalizado1.textColor = System.Drawing.Color.DarkGreen;
-            this.botonPersonalizado1.UseVisualStyleBackColor = false;
-            this.botonPersonalizado1.Click += new System.EventHandler(this.botonPersonalizado1_Click);
             // 
             // label2
             // 
@@ -161,12 +141,33 @@
             this.lContraseña.TabIndex = 8;
             this.lContraseña.Text = "CONTRASEÑA";
             // 
+            // Iniciar
+            // 
+            this.Iniciar.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.Iniciar.backGroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.Iniciar.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.Iniciar.BorderRadius = 40;
+            this.Iniciar.BorderSize = 0;
+            this.Iniciar.FlatAppearance.BorderSize = 0;
+            this.Iniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Iniciar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Iniciar.ForeColor = System.Drawing.Color.White;
+            this.Iniciar.Location = new System.Drawing.Point(538, 378);
+            this.Iniciar.Name = "Iniciar";
+            this.Iniciar.Size = new System.Drawing.Size(150, 40);
+            this.Iniciar.TabIndex = 32;
+            this.Iniciar.Text = "Iniciar";
+            this.Iniciar.textColor = System.Drawing.Color.White;
+            this.Iniciar.UseVisualStyleBackColor = false;
+            this.Iniciar.Click += new System.EventHandler(this.Iniciar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(700, 430);
+            this.Controls.Add(this.Iniciar);
             this.Controls.Add(this.lContraseña);
             this.Controls.Add(this.lUsuario);
             this.Controls.Add(this.label2);
@@ -175,7 +176,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cerrar);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.botonPersonalizado1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -187,8 +187,6 @@
         }
 
         #endregion
-
-        private InicioSistema.Controles.botonPersonalizado botonPersonalizado1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label cerrar;
         private System.Windows.Forms.Label label1;
@@ -197,6 +195,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lUsuario;
         private System.Windows.Forms.Label lContraseña;
+        private InicioSistema.Controles.botonPersonalizado Iniciar;
     }
 }
 
