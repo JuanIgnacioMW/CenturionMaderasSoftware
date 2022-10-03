@@ -12,3 +12,5 @@ C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.Adm
 C:\Users\usuario\Desktop\pendrive23-08\Prueba\inicio\inicio\obj\Debug\inicio.Vendedor.MenuVendedor.resources
 C:\Users\usuario\Documents\GitHub\CenturionMaderasSoftware\inicio\obj\Debug\inicio.exe
 C:\Users\usuario\Documents\GitHub\CenturionMaderasSoftware\inicio\obj\Debug\inicio.pdb
+C:\Users\arte_\OneDrive\Documentos\GitHub\CenturionMaderasSoftware\inicio\obj\Debug\inicio.exe
+C:\Users\arte_\OneDrive\Documentos\GitHub\CenturionMaderasSoftware\inicio\obj\Debug\inicio.pdb
